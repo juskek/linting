@@ -1,0 +1,7 @@
+{
+  "extends": "expo/tsconfig.base", // this missing config will be resolved in your expo project
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "./src"
+  }
+}
