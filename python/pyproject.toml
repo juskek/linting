@@ -1,0 +1,12 @@
+[tool.black]
+preview = true
+
+[tool.isort]
+profile = "black"
+
+[tool.pyright]
+include = [
+    "**/*.py",
+]
+
+typeCheckingMode = "strict"
